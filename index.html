@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="navbar">
+    <div class="logo">PORTFOLIO</div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HOME SECTION (Hero/Landing) -->
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-name">Anggriani Luthfiyah Ratu</h1>
+        <h2 class="hero-npm">Web Developer ────୨ৎ────</h2>
+        <p class="hero-title">Let's Work Together!</p>
+        <div class="social-links">
+          <a href="https://github.com/anggrianiratu" target="_blank" class="social-btn">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://instagram.com/anggriani.ratu" target="_blank" class="social-btn">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/anggriani-luthfiyah-ratu-259140294" target="_blank" class="social-btn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-image">
+        <div class="profile-circle">
+          <img src="foto.jpg" alt="Foto Profile">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <div class="container">
+    <div class="content">
+      
+      <!-- About Section -->
+      <section id="about" class="card">
+        <h2>About Me</h2>
+        <p>Saya adalah mahasiswa Teknik Informatika Universitas Lampung Angkatan 2023 dengan konsentrasi Rekayasa Perangkat Lunak (RPL). 
+            Saya memiliki ketertarikan dalam bidang pengembangan web dan berfokus pada pembuatan website yang menarik, fungsional, 
+            serta mudah digunakan. Saya terus belajar dan mengembangkan kemampuan saya agar dapat menghasilkan karya yang bermanfaat dan 
+            berkualitas di dunia teknologi, serta berkontribusi dalam menciptakan solusi digital yang inovatif dan berdampak positif bagi banyak orang.</p>
+        <hr>
+        <h3>Education</h3>
+        <strong>Universitas Lampung</strong> - Teknik Informatika</li>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="card">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <h4>Frontend Development</h4>
+            <ul>
+              <li>HTML & CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="skill-item">
+            <h4>Tools & Technologies</h4>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="card">
+        <h2>Project</h2>
+        <article class="project-item">
+          <h3>Smart Digital Library</h3>
+          <p>Smart Digital Library adalah sebuah sistem perpustakaan digital berbasis web yang dirancang untuk memudahkan siswa dalam mengakses berbagai materi 
+            pembelajaran tingkat SMA secara praktis dan efisien. Melalui platform ini, pengguna dapat melihat, membaca, serta mengunduh materi pelajaran sesuai 
+            kebutuhan, tanpa harus datang langsung ke sekolah. Sistem ini juga menampilkan antarmuka yang modern, responsif, dan mudah digunakan, 
+            sehingga memberikan pengalaman belajar digital yang nyaman. Selain itu, Smart Digital Library dikembangkan dengan struktur yang sederhana namun 
+            fungsional, sehingga dapat digunakan sebagai sarana pendukung proses pembelajaran di lingkungan sekolah.</p>
+            <br>
+          <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        </article>
+        <article class="project-item">
+          <h3>Sistem E-Learning dan Pengelolaan Data Siswa Berbasis Web</h3>
+          <p>Proyek ini merupakan pengembangan Learning Management System (LMS) untuk SMAN 14 Bandar Lampung yang dirancang menggunakan Moodle sebagai platform 
+            utama dan Google Spreadsheet sebagai media pengolahan data siswa. Sistem ini dikembangkan untuk menyediakan platform pembelajaran digital yang fleksibel, 
+            interaktif, dan mudah digunakan oleh guru maupun siswa. Pengembangan dilakukan sebagai respons terhadap kebutuhan sekolah akan sistem yang mampu mendukung 
+            kegiatan belajar mengajar secara daring serta mempermudah pengelolaan informasi akademik.</p>
+            <br>
+          <p><strong>Technologies:</strong> Moodle, Google Spreadsheet</p>
+        </article>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <p>Silakan isi form di bawah ini untuk menghubungi saya.</p>
+        <div class="form-container">
+          <form action="#" method="POST">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Nama Anda" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@example.com" required>
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan Anda..." required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+      
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 anggrianiratu. All rights reserved.</p>
+  </div>
+</body>
+</html>
